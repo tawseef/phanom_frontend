@@ -11,35 +11,41 @@
   align-items: center;
   height: 614px;
   width: 100%;
-  background: linear-gradient(132.77deg, #FFFFFF 55.44%, #4D95E1 71.32%, #8165E4 82.01%, #BD2CE8 94.69%);
+  background: linear-gradient(
+    132.77deg,
+    #ffffff 55.44%,
+    #4d95e1 71.32%,
+    #8165e4 82.01%,
+    #bd2ce8 94.69%
+  );
 }
 
-.hero{
+.hero {
   width: 736;
   height: 398.54351806640625;
   gap: 50px;
-  margin-left: 72px;  
+  margin-left: 72px;
 }
 
-.heroText{
+.heroText {
   font-family: Poppins;
-font-weight: 700;
-font-size: 48px;
-line-height: 58px;
-letter-spacing: 0%;
-vertical-align: middle;
-padding-bottom: 36px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  padding-bottom: 36px;
 }
 
-.heroContent{
+.heroContent {
   font-family: Poppins;
-font-weight: 500;
-font-size: 28px;
-line-height: 36px;
-letter-spacing: 0.5%;
-vertical-align: middle;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 36px;
+  letter-spacing: 0.5%;
+  vertical-align: middle;
 
-padding-bottom: 36px;
+  padding-bottom: 36px;
 }
 
 .logoSection {

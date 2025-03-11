@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import "./Navbar.css";
-import logo from "../../assets/Logo.svg";
+import logo from "../../assets/logo.svg";
 import downarrow from "../../assets/down-arrow.png";
-import menuIcon from "../../assets/menu.png"; 
-import closeIcon from "../../assets/close.png"; 
+import menuIcon from "../../assets/menu.png";
+import closeIcon from "../../assets/close.png";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,7 +19,8 @@ function Navbar() {
           Service <img src={downarrow} alt="Arrow" className="downarrow" />
         </div>
         <div className="menuItem">
-          Hire Indian Talent <img src={downarrow} alt="Arrow" className="downarrow" />
+          Hire Indian Talent{" "}
+          <img src={downarrow} alt="Arrow" className="downarrow" />
         </div>
         <div> Our Portfolio </div>
         <div> Case Study </div>
@@ -37,7 +38,8 @@ function Navbar() {
           Service <img src={downarrow} alt="Arrow" className="downarrow" />
         </div>
         <div className="menuItem">
-          Hire Indian Talent <img src={downarrow} alt="Arrow" className="downarrow" />
+          Hire Indian Talent{" "}
+          <img src={downarrow} alt="Arrow" className="downarrow" />
         </div>
         <div> Our Portfolio </div>
         <div> Case Study </div>
