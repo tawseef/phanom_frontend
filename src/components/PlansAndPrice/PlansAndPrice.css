@@ -1,0 +1,205 @@
+/* 
+ .priceDiv {
+    display: flex;
+    align-items: center;     justify-content: space-between; 
+    padding: 40px; 
+    padding-bottom: 0px;
+    background: linear-gradient(270deg, rgba(67, 156, 225, 0.35) 1.22%, rgba(141, 89, 229, 0.35) 50.09%, rgba(200, 28, 230, 0.35) 98.96%);
+}
+
+.nameDiv {
+    width: 40%;
+}
+.optionDiv{
+    height: 204.52px;
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.optionImg{
+    
+    background-color: aqua;
+}
+
+.uniqueDiv{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 80px;
+} 
+
+.name {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+.title {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.planImgDiv {
+    width: 55%;     display: flex;
+    justify-content: center;
+}
+
+.planImg {
+    max-width: 100%;
+    height: auto;
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.priceDiv {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(270deg, rgba(67, 156, 225, 0.35) 1.22%, rgba(141, 89, 229, 0.35) 50.09%, rgba(200, 28, 230, 0.35) 98.96%);
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    /* max-width: 400px; */
+    /* margin: auto; */
+}
+
+.nameDiv {
+    width: 100%;
+    /* text-align: center; */
+    /* margin-bottom: 15px; */
+}
+
+.name {
+    padding-left: 25px;
+    padding-top: 25px;
+    box-sizing: border-box;
+    text-align: left;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333;
+}
+
+.title {
+    padding-left: 25px;
+    text-align: left;
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #555;
+}
+
+.adarshImg {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.planImgDiv {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.planImg {
+    max-width: 90%;
+    height: auto;
+}
+
+.optionDiv {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.optionImg {
+    width: 80%;
+    max-width: 300px;
+    border-radius: 12px;
+}
+
+.uniqueDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 40px;
+}
+
+.uniqueDiv img {
+    width: 100%;
+    max-width: 320px;
+    border-radius: 12px;
+}
+
+.button {
+    background-color: #7d3cff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 15px;
+    width: 90%;
+    max-width: 300px;
+}
+
+@media screen and (max-width: 768px) {
+    .priceDiv {
+        padding: 20px;
+        max-width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .name {
+        font-size: 36px;
+        /* display: flex; */
+        /* flex-direction: column; */
+    }
+
+    .title {
+        font-size: 18px;
+    }
+
+    .adarshImg {
+        width: 900px;
+    }
+
+    .optionDiv {
+        padding: 15px;
+    }
+
+    .uniqueDiv{
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .uniqueDiv img {
+        max-width: 100%;
+    }
+
+    .button {
+        width: 100%;
+    }
+}

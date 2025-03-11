@@ -1,0 +1,97 @@
+.serviceDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 76px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.chooseDiv{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.chooseTextDiv{
+    margin-right: 76.4px;
+}
+
+.chooseTextImg{
+    height: 184px;
+}
+
+.text {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: 0.5%;
+  color: #a1a1a1;
+}
+
+form {
+  width: 737px;
+  display: flex;
+  gap: 16px;
+}
+
+.inputBox {
+  width: 533px;
+  height: 74px;
+  background-color: #f2f4f8;
+  padding-left: 24px;
+  border-radius: 12px;
+  box-sizing: border-box;
+}
+
+.submitBtn {
+  width: 188px;
+  height: 74px;
+  border-radius: 12px;
+  padding: 24px;
+  box-sizing: border-box;
+}
+
+.missionDesktop {
+    display: block;
+  }
+  
+  .missionMobile {
+    display: none; 
+  }
+  
+  @media screen and (max-width: 768px) {
+    .missionDesktop {
+      display: none; 
+    }
+  
+    .missionMobile {
+      display: block; 
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  

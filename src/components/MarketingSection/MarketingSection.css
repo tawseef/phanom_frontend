@@ -1,0 +1,5 @@
+.marketingContainer{
+    display: flex;
+    justify-content: center;
+    padding: 120px;
+}
